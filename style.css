@@ -26,7 +26,8 @@ h3 {
 
 nav a:link {
   font-size: 18px;
-  margin: 20px;  
+  margin: 20px;
+  text-align: center;
 }
 
 nav a:link:last-child {
