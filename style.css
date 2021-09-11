@@ -45,6 +45,11 @@ article {
   height: 80px;
 }
 
+nav {
+  font-size: 18px;
+  text-align: center;
+}
+
 .post-header {
   margin-bottom: 40px;
 }
