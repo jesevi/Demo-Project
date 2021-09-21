@@ -228,3 +228,11 @@ h2::after {
 footer p {
   color: green;
 } */
+
+.author-img {
+  float:left;
+}
+
+.author {
+  padding-left: 10px;
+}
