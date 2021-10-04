@@ -13,9 +13,14 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
-  position: relative;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
 }
 
 h1,
@@ -38,16 +43,9 @@ article {
   margin-bottom: 60px;
 }
 
-.main-header {
-  background-color: #f7f7f7;
-  padding: 20px 40px;
-  margin-bottom: 60px;
-  height: 80px;
-}
-
 nav {
   font-size: 18px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .post-header {
@@ -58,8 +56,6 @@ nav {
   width: 100%;
   height: auto;
 }
-
-
 
 aside {
   background-color: #f7f7f7;
@@ -94,10 +90,11 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
-  margin-bottom: 15px ;
+  margin-bottom: 15px;
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 50px;
   margin-bottom: 20px;
 }
@@ -110,14 +107,6 @@ li {
 li:last-child {
   margin-bottom: 0;
 }
-
-/* footer p {
-  font-size: 16px;
-} */
-
-/* article header p {
-  font-style: italic;
-} */
 
 #author {
   font-style: italic;
@@ -148,12 +137,6 @@ li:first-child {
 li:last-child {
   font-style: italic;
 }
-
-/* this wont work */
-li:nth-child(2) {
-  */ color: red; */
-}
-
 
 /* styling links */
 a:link {
@@ -210,29 +193,26 @@ h2::after {
   right: -25px;
 }
 
-/* LVHA */ 
-
-/* resolving conflict 
-#copyright {
-  color: red;
+.clear {
+  clear: both;
 }
 
-.copyright {
-  color: blue;
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
 }
 
-.text {
-  color: yellow;
+article {
+  width: 825px;
+  float: left;
 }
 
-footer p {
-  color: green;
-} */
-
-.author-img {
-  float:left;
+aside {
+  width: 300px;
+  float: right;
 }
 
-.author {
-  padding-left: 10px;
+footer {
+  clear: both;
 }
